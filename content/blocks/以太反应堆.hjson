@@ -1,0 +1,40 @@
+"type": "GenericCrafter",
+"name": "以太反应堆",
+"description": "消耗钛中的太发电，副产物钅",
+"research": "钍反应堆",
+"size": 3,
+"powerProduction": 114
+"baseExplosiveness":20
+"explosionRadius":750,
+"explosionDamage":6700,
+"baseExplosiveness":2500,
+"itemDuration":90,
+"itemCapacity":100,
+"health":2650,
+"ambientSound":"hum",
+"ambientSoundVolume":0.14,
+"canOverdrive":true,
+"hasItems": true,
+"smokeThreshold":0.4,
+"flashThreshold":0.6,
+"heating":0.0075,
+"category": "crafting"
+"craftTime":60,
+"consumes": {
+	"liquid":{"liquid":"slag","amount":0.1},
+    "power":1.0
+    "items": {
+        "items": [
+            {"item": "titanium","amount": 2}
+        ]
+    }
+},
+"outputItem":
+	{"item":"钅","amount":2},
+"requirements": [
+    {"item": "lead","amount": 600},
+    {"item": "silicon","amount": 550},
+	{"item":"metaglass","amount":250}
+    {"item": "titanium","amount": 1145}
+],
+"flameColor":"ffff77"

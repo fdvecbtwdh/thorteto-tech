@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "钍豆",
+	"description": "钍豆是一种高纯度的有机化合物，是一种高分子材料，具有极高的热容，可用于制造各种高性能的金属件。",
+	"hardness": 2,
+    "explosiveness":1,
+    "flammability":0,
+    "radioactivity":1.5,
+    "cost":2,
+    "research": "钍"
+}

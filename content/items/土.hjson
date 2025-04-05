@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "土",
+	"description": "一种坚硬的土壤，可以用来制作各种建筑材料。",
+	"hardness": 2,
+    "explosiveness":0.2,
+    "flammability":0,
+    "radioactivity":1.5,
+    "cost":2,
+    "research": "沙"
+}
