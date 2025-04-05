@@ -1,7 +1,7 @@
 {
 	"type": "material",
 	"name": "土",
-	"description": "一种坚硬的土壤，可以用来制作各种建筑材料。",
+	"description": "一种坚硬的土壤，似乎可以用来制作某种元素。",
 	"hardness": 2,
     "explosiveness":0.2,
     "flammability":0,

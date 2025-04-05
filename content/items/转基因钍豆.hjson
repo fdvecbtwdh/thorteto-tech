@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "钍豆",
+	"description": "转基因钍豆比土豆的能量密度更高，可以制作强劲的武器和供给一些设施",
+	"hardness": 2,
+    "explosiveness":1,
+    "flammability":0,
+    "radioactivity":1.5,
+    "cost":2,
+    "research": "钍豆"
+}
