@@ -1,11 +1,11 @@
 "type": "GenericCrafter",
-"name": "超理反应釜",
-"description": "钅土->钍",
+"name": "土培养室",
+"description": "用于培养土。",
 "research": "以太反应堆",
 "size": 2,
 "itemDuration":90,
 "itemCapacity":100,
-"health":1500,
+"health":700,
 "ambientSound":"hum",
 "ambientSoundVolume":0.14,
 "canOverdrive":true,
@@ -15,21 +15,20 @@
 "heating":0.0075,
 "category": "crafting"
 "consumes": {
-	"liquid":{"liquid":"Cryofluid","amount":2},
-    "power":14.0
+	"liquid":{"liquid":"water","amount":2},
+    "power":1.0
     "items": {
         "items": [
-            {"item": "土","amount": 2}
-            {"item": "钅","amount": 0.5}
+            {"item": "sand","amount": 0.5}
+            {"item": "Spore Pod","amount": 1}
         ]
     }
 },
 "outputItem":
-	{"item":"thorium","amount":0.5},
+	{"item":"土","amount":0.5},
 "requirements": [
-    {"item": "titanium","amount": 2000},
-    {"item": "silicon","amount": 750},
-	{"item":"metaglass","amount":150}
-    {"item": "钅","amount": 1145}
+    {"item": "titanium","amount": 300},
+    {"item": "silicon","amount": 60},
+    {"item": "copper","amount": 80}
 ],
 "flameColor":"ffff77"

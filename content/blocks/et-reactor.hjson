@@ -1,7 +1,7 @@
 "type": "GenericCrafter",
 "name": "以太反应堆",
-"description": "消耗钛中的太发电，副产物钅",
-"research": "土豆培养皿",
+"description": "消耗钛中的太发电[WIP]，副产物钅",
+"research": "钍反应堆",
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,
@@ -30,5 +30,6 @@
     {"item": "silicon","amount": 550},
 	{"item":"metaglass","amount":250}
     {"item": "titanium","amount": 1145}
+    {"item": "钍豆","amount": 300}
 ],
 "flameColor":"ffff77"

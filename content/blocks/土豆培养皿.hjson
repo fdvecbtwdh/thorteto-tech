@@ -1,8 +1,8 @@
 "type": "GenericCrafter",
 "name": "土豆培养皿",
 "description": "",
-"research": "钍反应堆",
-"size": 3,
+"research": "以太反应堆",
+"size": 2,
 "itemDuration":90,
 "itemCapacity":100,
 "health":1500,
@@ -19,16 +19,16 @@
     "power":3.0
     "items": {
         "items": [
-            {"item": "土","amount": 0.5}
+            {"item": "thorium","amount": 0.5}
         ]
     }
 },
 "outputItem":
-	{"item":"土豆","amount":1},
+	{"item":"钍豆","amount":1},
 "requirements": [
-    {"item": "copper","amount": 2000},
+    {"item": "titanium","amount": 300},
     {"item": "silicon","amount": 750},
 	{"item":"metaglass","amount":1550}
-    {"item": "土","amount": 1145}
+    {"item": "thorium","amount": 1145}
 ],
 "flameColor":"ffff77"
