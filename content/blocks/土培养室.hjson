@@ -20,7 +20,7 @@
     "items": {
         "items": [
             {"item": "sand","amount": 0.5}
-            {"item": "Spore-Pod","amount": 1}
+            {"item": "spore-pod","amount": 1}
         ]
     }
 },
