@@ -1,7 +1,7 @@
 "type": "GenericCrafter",
 "name": "以太反应堆",
 "description": "消耗钛中的太发电，副产物钅",
-"research": "钍反应堆",
+"research": "土豆培养皿",
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,
@@ -14,7 +14,6 @@
 "flashThreshold":0.6,
 "heating":0.0075,
 "category": "crafting"
-"craftTime":60,
 "consumes": {
 	"liquid":{"liquid":"slag","amount":0.1},
     "power":1.0

@@ -1,7 +1,7 @@
 "type": "GenericCrafter",
-"name": "避镭针",
+"name": "土豆培养皿",
 "description": "",
-"research": "以太反应堆",
+"research": "钍反应堆",
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,
@@ -12,23 +12,23 @@
 "hasItems": true, 
 "smokeThreshold":0.4,
 "flashThreshold":0.6,
-"heating":0.0075,
-"category": "crafting"
+"heating":0.075,
+"category": "production",
 "consumes": {
 	"liquid":{"liquid":"water","amount":0.5},
-    "power":14.0
+    "power":3.0
     "items": {
         "items": [
-            {"item": "钅","amount": 2}
+            {"item": "土","amount": 0.5}
         ]
     }
 },
 "outputItem":
-	{"item":"镭","amount":2},
+	{"item":"土豆","amount":1},
 "requirements": [
     {"item": "copper","amount": 2000},
-    {"item": "silicon","amount": 1050},
-	{"item":"metaglass","amount":550}
-    {"item": "钅","amount": 1145}
+    {"item": "silicon","amount": 750},
+	{"item":"metaglass","amount":1550}
+    {"item": "土","amount": 1145}
 ],
 "flameColor":"ffff77"
