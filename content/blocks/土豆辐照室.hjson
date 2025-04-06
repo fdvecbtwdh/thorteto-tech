@@ -15,7 +15,7 @@
 "heating":0.0075,
 "category": "crafting"
 "consumes": {
-	"liquid":{"liquid":"Cryofluid","amount":0.5},
+	"liquid":{"liquid":"cryofluid","amount":0.5},
     "power":5.0
     "items": {
         "items": [
