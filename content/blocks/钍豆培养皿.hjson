@@ -1,7 +1,14 @@
 "type": "GenericCrafter",
-"name": "土豆培养皿",
+"name": "钍豆培养皿",
 "description": "",
 "research": "以太反应堆",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 2,
 "itemDuration":90,
 "itemCapacity":100,
@@ -19,7 +26,7 @@
     "power":3.0
     "items": {
         "items": [
-            {"item": "thorium","amount": 0.5}
+            {"item": "thorium","amount": 2}
         ]
     }
 },

@@ -1,7 +1,14 @@
 "type": "GenericCrafter",
-"name": "土豆辐照室",
+"name": "钍豆辐照室",
 "description": "",
-"research": "土豆培养皿",
+"research": "钍豆培养皿",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,
@@ -20,12 +27,12 @@
     "items": {
         "items": [
             {"item": "钍豆","amount": 2}
-            {"item": "钅","amount": 0.5}
+            {"item": "钅","amount": 1}
         ]
     }
 },
 "outputItem":
-	{"item":"转基因钍豆","amount":0.5},
+	{"item":"转基因钍豆","amount":1},
 "requirements": [
     {"item": "titanium","amount": 2000},
     {"item": "silicon","amount": 750},

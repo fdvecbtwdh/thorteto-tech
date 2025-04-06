@@ -1,0 +1,8 @@
+name: "thorteto-tech"
+displayName: "钍豆科技"
+author: fdvecbtwdh,uninery
+description: "[WIP]"
+version: "v0.3.0-alpha"
+minGameVersion: "146"
+dependencies: []
+hidden: false

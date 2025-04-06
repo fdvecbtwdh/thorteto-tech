@@ -2,6 +2,13 @@
 "name": "土培养室",
 "description": "用于培养土。",
 "research": "以太反应堆",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 2,
 "itemDuration":90,
 "itemCapacity":100,
@@ -15,17 +22,17 @@
 "heating":0.0075,
 "category": "crafting"
 "consumes": {
-	"liquid":{"liquid":"water","amount":2},
+	"liquid":{"liquid":"water","amount":1},
     "power":1.0
     "items": {
         "items": [
-            {"item": "sand","amount": 0.5}
-            {"item": "spore-pod","amount": 1}
+            {"item": "sand","amount": 1}
+            {"item": "spore-pod","amount": 2}
         ]
     }
 },
 "outputItem":
-	{"item":"土","amount":0.5},
+	{"item":"土","amount":1},
 "requirements": [
     {"item": "titanium","amount": 300},
     {"item": "silicon","amount": 60},

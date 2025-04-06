@@ -2,6 +2,13 @@
 "name": "以太反应堆",
 "description": "消耗钛中的太发电[WIP]，副产物钅",
 "research": "钍反应堆",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,

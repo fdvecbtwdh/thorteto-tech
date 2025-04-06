@@ -2,6 +2,13 @@
 "name": "避镭针",
 "description": "",
 "research": "以太反应堆",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,

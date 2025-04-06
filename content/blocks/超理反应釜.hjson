@@ -2,6 +2,13 @@
 "name": "超理反应釜",
 "description": "钅土->钍",
 "research": "以太反应堆",
+"drawer":{
+    "type": "DrawMulti",//特效类型
+    "drawers": [
+        "DrawDefault",//默认特效
+        "DrawFlame"//火焰特效
+    ],
+},
 "size": 2,
 "itemDuration":90,
 "itemCapacity":100,
@@ -15,17 +22,17 @@
 "heating":0.0075,
 "category": "crafting"
 "consumes": {
-	"liquid":{"liquid":"cryofluid","amount":2},
+	"liquid":{"liquid":"cryofluid","amount":1},
     "power":14.0
     "items": {
         "items": [
-            {"item": "土","amount": 2}
-            {"item": "钅","amount": 0.5}
+            {"item": "土","amount": 3}
+            {"item": "钅","amount": 1}
         ]
     }
 },
 "outputItem":
-	{"item":"thorium","amount":0.5},
+	{"item":"thorium","amount":1},
 "requirements": [
     {"item": "titanium","amount": 2000},
     {"item": "silicon","amount": 750},
