@@ -3,11 +3,6 @@
 "description": "消耗钛中的太发电，副产物钅",
 "research": "钍反应堆",
 "size": 3,
-"powerProduction": 114
-"baseExplosiveness":20
-"explosionRadius":750,
-"explosionDamage":6700,
-"baseExplosiveness":2500,
 "itemDuration":90,
 "itemCapacity":100,
 "health":2650,

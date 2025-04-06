@@ -1,0 +1,10 @@
+{
+	"type": "material",
+	"name": "镭",
+	"description": "一种元素，似乎与某种自然现象有关。",
+	"hardness": 2,
+    "flammability":0,
+    "radioactivity":1.5,
+    "cost":2,
+    "research": "钅"
+}

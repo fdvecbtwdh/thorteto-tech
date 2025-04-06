@@ -1,0 +1,35 @@
+"type": "GenericCrafter",
+"name": "避镭针",
+"description": "",
+"research": "以太反应堆",
+"size": 3,
+"itemDuration":90,
+"itemCapacity":100,
+"health":1500,
+"ambientSound":"hum",
+"ambientSoundVolume":0.14,
+"canOverdrive":true,
+"hasItems": true,
+"smokeThreshold":0.4,
+"flashThreshold":0.6,
+"heating":0.0075,
+"category": "crafting"
+"craftTime":60,
+"consumes": {
+	"liquid":{"liquid":"water","amount":0.5},
+    "power":14.0
+    "items": {
+        "items": [
+            {"item": "钅","amount": 2}
+        ]
+    }
+},
+"outputItem":
+	{"item":"镭","amount":2},
+"requirements": [
+    {"item": "copper","amount": 2000},
+    {"item": "silicon","amount": 1050},
+	{"item":"metaglass","amount":550}
+    {"item": "钅","amount": 1145}
+],
+"flameColor":"ffff77"
