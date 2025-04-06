@@ -1,7 +1,7 @@
 "type": "GenericCrafter",
 "name": "土豆辐照室",
 "description": "",
-"research": "以太反应堆",
+"research": "土豆培养皿",
 "size": 3,
 "itemDuration":90,
 "itemCapacity":100,
@@ -15,21 +15,22 @@
 "heating":0.0075,
 "category": "crafting"
 "consumes": {
-	"liquid":{"liquid":"water","amount":0.5},
-    "power":14.0
+	"liquid":{"liquid":"Cryofluid","amount":0.5},
+    "power":5.0
     "items": {
         "items": [
-            {"item": "土豆","amount": 2}
+            {"item": "钍豆","amount": 2}
             {"item": "钅","amount": 0.5}
         ]
     }
 },
 "outputItem":
-	{"item":"thorium","amount":0.5},
+	{"item":"转基因钍豆","amount":0.5},
 "requirements": [
     {"item": "titanium","amount": 2000},
     {"item": "silicon","amount": 750},
 	{"item":"metaglass","amount":150}
     {"item": "钅","amount": 1145}
+    {"item": "thorium","amount": 1000}
 ],
 "flameColor":"ffff77"
